@@ -27,7 +27,6 @@ public:
     void evolve();
     bool isStable() const;
     int getGeneration() const;
-    int getMaxGeneration() const;
 
 private:
     int rows;
